@@ -15,7 +15,6 @@ for (int index = 0; index < arr.Length / 2; index++)
     tempNum = arr[index];
     arr[index] = arr[arr.Length - 1 - index];
     arr[arr.Length - 1 - index] = tempNum;
-
 }
 
 PromtArray(arr);
